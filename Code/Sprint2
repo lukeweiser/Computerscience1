@@ -1,0 +1,21 @@
+
+import tkinter
+import random
+
+Random('spicy','Master','lil','Boi', 'Beeter')
+
+
+def pickName():
+    nameLabel.configure(text=random.choice(names))
+
+root = tkinter.Tk()
+root.title("Name Picker")
+root.geometry("200x100")
+
+nameLabel = tkinter.Label(root, text="", font=('Calibri', 32))
+nameLabel.pack()
+
+pickButton = tkinter.Button(text="Pick!", command=pickName)
+pickButton.pack()
+
+root.mainloop()

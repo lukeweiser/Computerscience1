@@ -1,0 +1,20 @@
+
+Import tkinter
+import random
+
+names=['Jefferson','Paulina', 'Jeffery', 'Miles']
+
+def pickname():
+    namelebel.configure(text=random.choice(names))
+
+root=tkinter.tk()
+root.title("Random Name Generator")
+root.geometry("200x100")
+
+nameLabel=tkinter.label(root,text="", font('Calibri', 32))
+nameLabel.pack()
+
+generateButton = tkinter.Button(text="Generate Already!", command=generatename)
+GenerateButton.pack()
+
+Root.mainloop()
