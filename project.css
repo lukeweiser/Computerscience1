@@ -1,9 +1,10 @@
+
 body {
+  text-align: center;
+  background-color: rgb(76, 170, 231);
   font-family: serif;
-  background: #rgb(165, 186, 37);
   color: darkred;
 }
-h1 {
-  background-color: #rgb(44, 145, 100)
-  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+h4 {
+  color: black
 }
